@@ -7,12 +7,12 @@ import React from 'react'
 // 3. presentional components, partially right, we can use
 //    HOOKS and specify state
 
-// const About = () => {
-//   const message = 'Hello World';
-//   return (
-//     <h1>Hello About Page - {message}</h1>
-//   )
-// }
+const About = () => {
+  const message = 'Hello World';
+  return (
+    <h1>Hello About Page - {message}</h1>
+  )
+}
 
 // const About = () => {
 //   const message = 'Hello World';
@@ -26,19 +26,13 @@ import React from 'react'
 //   )
 // }
 
-class About extends React.Component {
-  
-  
-  render() {
-    return (
-      <h1>Hello I am class component</h1>
-    )
-  }
-}
+// class About extends React.Component {
 
-
-
-
-
+//   render() {
+//     return (
+//       <h1>Hello I am class component</h1>
+//     )
+//   }
+// }
 
 export default About
